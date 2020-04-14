@@ -3,7 +3,7 @@ A little dark theme
 
 
 - deepl init
-- flarum working
-- github working
-- qwant working
+- flarum v0 working
+- github v0 working
+- qwant v1 working
 - reddit init
