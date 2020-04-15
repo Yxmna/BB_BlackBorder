@@ -8,3 +8,607 @@
 @updateURL      https://github.com/Yxmna/BB_BlackBorder/raw/master/flarum/flarum-bb.user.css
 @license        GPL-3.0
 ==/UserStyle== */
+
+@-moz-document domain("play-mc.fr") {
+/* ⚠️⚠️ REPLACE "play-mc.fr" by ur forum url ⚠️⚠️ */
+    
+    :root {
+    --gray_ll: #4f5357;
+    --gray_l: #393e42;
+    --gray: #24292E;
+    --gray_d: #202429;
+    --gray_dd: #1c2024;
+    --gray_ddd: #191c20;
+    --gray_dddd: #15181b;
+
+    --white: #fff;
+    --white_d: #d3d4d5;
+    --white_dd: #a7a9ab;
+    --white_ddd: #7b7e81;
+    --white_dddd: #4f5357;
+
+    --color: #21b371;
+    --color_d: #1da165;
+    --color_dd: #1a8f5a;
+}
+    
+    
+    
+    /* BACKGROUND */
+    body {
+        background: var(--gray);
+    }
+
+    .App::before {
+        background: var(--gray_ddd);
+        border-bottom: 1px solid #e8ecf3;
+        border-bottom: 0;
+    }
+
+    .App-content {
+        border-top: 0px solid #e8ecf3;
+    }
+
+    .Header-title {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 34px;
+    }
+
+    .Hero {
+        background: var(--gray);
+        background: var(--gray_d);
+        color: #fff;
+        /*     border-bottom: 4px solid var(--gray_dd) */
+        box-shadow: 0 0 20px -5px rgba(0, 0, 0, .5) inset;
+    }
+
+    .Hero .container button {
+        background: var(--gray_d) !important;
+        color: var(--white_d) !important;
+    }
+
+    .Hero .container button:hover {
+        background: var(--gray_ddd) !important;
+        color: var(--white) !important;
+    }
+
+    .containerNarrow {
+        /*     background: var(--gray_d);
+    padding: 20px;
+    border-radius: 6px;
+    border: 4px solid var(--gray_dd); */
+    }
+
+    .Hero-close {}
+
+    .Hero h2 {
+        color: var(--white_d);
+    }
+
+    .Hero-subtitle {
+        color: var(--white_dddd);
+    }
+
+    .Modal-header {
+        background: var(--gray_dd) !important;
+        color: var(--white_ddd);
+    }
+
+    .Modal-body,
+    .TagDiscussionModal .Modal-footer {
+        background: var(--gray) !important;
+    }
+
+    .SelectTagList > li.active {
+        background: var(--gray_d);
+    }
+
+    .Modal-body .FormControl,
+    .Modal-body .FormControl input {
+        background-color: var(--gray_dd);
+        color: var(--white_d) !important;
+    }
+
+    .TagDiscussionModal .Modal-header {
+        padding: 10px 20px 10px;
+    }
+
+    .Modal-close {
+        top: 3px;
+    }
+
+    .TagDiscussionModal .Modal-header h3 {
+        color: var(--white_d);
+    }
+
+    .FormControl:focus,
+    .FormControl.focus {
+        border: 4px solid var(--gray_ddd);
+    }
+
+    .IndexPage-nav .item-newDiscussion .Button.IndexPage-newDiscussion {
+        background: var(--color) !important;
+        color: var(--white) !important;
+    }
+
+
+    .IndexPage-nav .item-newDiscussion .Button.IndexPage-newDiscussion:hover {
+        background: var(--color_d) !important;
+    }
+
+    .Dropdown-menu.Post-mentionedBy-preview,
+    .Dropdown-menu.Post-mentionedBy-preview *,
+    .Post-mentionedBy-preview,
+    .PostMention-preview,
+    .MentionsDropdown {
+        background: var(--gray_dd) !important;
+        box-shadow: none;
+    }
+
+
+    .Dropdown-menu.Post-mentionedBy-preview,
+    .Post-mentionedBy-preview,
+    .PostMention-preview,
+    .MentionsDropdown {
+        border: 4px solid var(--gray_ddd);
+    }
+
+    .Dropdown-menu {
+        background: var(--gray_dd);
+        border: 4px solid var(--gray_ddd);
+        box-shadow: none;
+    }
+
+    .Dropdown-menu button {
+        color: var(--white_dd) !important;
+    }
+
+
+
+
+
+
+
+
+
+    /* BUTTON */
+    .Button {
+        background: var(--gray_dd) !important;
+        color: var(--white_dd);
+    }
+
+    .Button:hover {
+        background: var(--gray_ddd) !important;
+        color: var(--white_dd);
+    }
+
+    .Header-controls .Button {
+        background: transparent !important;
+        color: var(--white);
+    }
+
+    .Header-controls .Button:hover {
+        background: var(--gray_dddd) !important;
+        color: var(--white_dd);
+    }
+
+    .Post-actions .Button {
+        /*     background: var(--gray_d) !important; */
+        background: var(--gray) !important;
+        color: var(--white_ddd);
+        /*     box-shadow: 0 3px 3px -2px rgba(0,0,0,.35) */
+    }
+
+    .Post-actions .Button:hover {
+        color: var(--white_dd);
+    }
+
+    .Button--flat {
+        border-radius: 0px;
+    }
+
+    .Composer-controls li {
+        display: inline-flex;
+        padding: 8px 0 !important;
+        height: 54px !important;
+    }
+
+    .Composer-controls li button {}
+
+    .DiscussionListItem .Button {
+        background: transparent !important;
+    }
+
+    .DiscussionList-update {
+        background: var(--color) !important;
+        color: var(--white);
+        /*     font-weight: bold; */
+        border-radius: 6px;
+        /*     box-shadow: 0 0 40px -10px rgba(0,0,0,.75) */
+    }
+
+
+    .DiscussionList-update:hover {
+        background: var(--color_d) !important;
+        color: var(--white);
+        filter: brightness(90%);
+    }
+
+
+    .Dropdown-menu > li > a:hover,
+    .Dropdown-menu > li > button:hover {
+        background: var(--gray_ddd);
+    }
+
+
+    .App-header .FormControl {
+        background: var(--gray_dd);
+        border: 0px solid var(--gray_dddd);
+        color: var(--white);
+        border-radius: 6px;
+    }
+
+
+    .App-header .FormControl:focus {
+        background: var(--gray_dd);
+        border: 4px solid var(--gray);
+        color: var(--white);
+        border-radius: 6px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* POST */
+    .Post {
+        color: var(--white_d);
+    }
+
+    .PostStream-item {
+        transition: all .0515s;
+    }
+
+    .PostStream-item:not(:last-child),
+    .PostsUserPage-list > li,
+    .sideNav::after {
+        border-bottom: 1px solid var(--gray_dd);
+    }
+
+    .DiscussionListItem:hover {
+        background: var(--gray_d);
+    }
+
+
+
+
+
+
+
+    /* CODE */
+    .Post-body pre {
+        color: var(--white);
+        background-color: var(--gray_d);
+        border: 4px solid var(--gray_dd);
+        border-radius: 6px;
+    }
+
+    code span {
+        color: var(--white) !important;
+    }
+
+    code {
+        background-color: var(--gray_dd) !important;
+        border: 2px solid var(--gray_ddd);
+        border-radius: 6px !important;
+        padding: 3px 5px !important;
+        color: var(--white) !important;
+    }
+
+    .Post-body pre code {
+        background: none !important;
+        border: none;
+        padding: 5px !important;
+    }
+
+    .Post-body blockquote {
+        background-color: var(--gray_dd) !important;
+        border: 2px solid var(--gray_ddd);
+        color: var(--white) !important;
+    }
+
+
+
+
+
+    /* TEXT */
+    span.username {
+        color: var(--white_d) !important;
+    }
+
+    .DiscussionListItem-info .username {
+        color: var(--white_ddd) !important;
+    }
+
+    .PostMention,
+    .UserMention {
+        background-color: var(--gray_dd) !important;
+        border-radius: 6px !important;
+        color: var(--white) !important;
+    }
+
+    .Post-likedBy {
+        color: var(--white_ddd);
+    }
+
+    .Post-likedBy a {
+        color: var(--white);
+    }
+
+
+    .DiscussionListItem-title,
+    .unread .DiscussionListItem-count {
+        color: var(--color);
+    }
+
+    .DiscussionList:not(.DiscussionList--searchResults) .read .DiscussionListItem-title,
+    .PostsUserPage-discussion,
+    .PostsUserPage-discussion a {
+        color: var(--white_ddd);
+    }
+
+    .DiscussionListItem-info,
+    .DiscussionListItem-count,
+    .Post-footer,
+    .Post-actions,
+    .Post-footer a,
+    .Post-actions a,
+    .PostEdited,
+    .Post-header time,
+    .PostStream-timeGap {
+        color: var(--white_dddd);
+    }
+    .item-lastSeen,
+    .item-joined {
+        color: var(--white_d)
+    }
+
+    .Dropdown-menu.Post-mentionedBy-preview span,
+    .Post-mentionedBy-preview span,
+    .PostMention-preview span,
+    .MentionsDropdown span {
+        color: var(--white_dd);
+    }
+
+
+    .PostsUserPage-discussion a {
+        font-style: normal;
+        color: var(--white_d);
+    }
+
+    .sideNav .Dropdown--select .Dropdown-menu > li.active > a {
+        color: var(--white_d);
+    }
+
+    .sideNav .Dropdown--select .Dropdown-menu > li > a {
+        color: var(--white_ddd);
+    }
+
+
+    .Dropdown-menu * {
+        color: var(--white_dd) !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* IMG */
+    .Avatar {
+        background: none;
+    }
+    .UserCard-avatar .Avatar {
+        border: none;
+        box-shadow: none;
+    }
+
+    .Badge {
+        box-shadow: none;
+    }
+
+
+
+
+
+    /* EXTRA */
+    .Scrubber-handle {
+        background: none;
+    }
+
+    .Scrubber-info strong {
+        color: var(--white_d);
+    }
+
+    .Scrubber-info .Scrubber-description {
+        color: var(--white_dddd) !important;
+    }
+
+    .Scrubber-bar {
+        background: var(--white);
+    }
+
+    .Scrubber-first,
+    .Scrubber-last {
+        color: var(--white_dddd) !important;
+    }
+
+    .item-tags {
+        max-width: 400px !important;
+        -webkit-mask-image: none !important;
+    }
+
+
+    .SubscriptionMenu-button--follow {
+        color: var(--color);
+    }
+
+    .Dropdown-separator {
+        height: 4px;
+        background: var(--gray_ddd);
+    }
+
+    .Dropdown-menu > li.active > a,
+    .Dropdown-menu > li.active > button {
+        background: var(--gray_ddd);
+    }
+
+    .Scrubber-unread {
+        border-left: 1px solid var(--color);
+        background-image: linear-gradient(to right, var(--gray_dd), rgba(232, 236, 243, 0) 25px, rgba(232, 236, 243, 0));
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* RES */
+    .Composer {
+        border-radius: 6px;
+        background: var(--gray_dd) !important;
+        box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
+        /*     box-shadow: none !important; */
+        border: 4px var(--gray_ddd) solid !important;
+    }
+
+    .Post.editing {
+        border-radius: 6px;
+        top: 5px;
+        opacity: 1;
+        /*     border: 4px var(--gray_d) solid !important; */
+        /*      box-shadow: 0 0 10px -1px rgba(0,0,0,.25) inset; */
+        box-shadow: 0 0 25px -5px var(--gray_dddd)
+    }
+
+    .TextEditor textarea,
+    .TextEditor textarea:focus {
+        color: var(--white_dd);
+    }
+
+    .Composer.active:not(.fullScreen) {
+        box-shadow: none;
+        border: 4px var(--gray_dddd) solid !important;
+        box-shadow: 0 0 40px -5px rgba(0, 0, 0, .5);
+    }
+
+    .TextEditor-controls {
+        margin: 0 -20px 0 -105px;
+        padding: 10px 20px;
+        border-top: 0px solid #e8ecf3;
+        background: var(--gray_ddd)
+    }
+
+    .TextEditor-controls button {
+        background: var(--gray_ddd) !important;
+    }
+
+
+    .TextEditor-controls button:hover {
+        background: var(--gray_dddd) !important;
+    }
+
+    .ComposerBody-header h3 {
+        color: var(--white)
+    }
+
+    .DiscussionPage-stream {
+        /*     opacity: 0; */
+    }
+
+    .FormControl:focus,
+    .FormControl.focus {
+        color: var(--white);
+    }
+
+    .Search-results mark {
+        color: var(--color) !important;
+    }
+
+    .Dropdown-header {
+        border-top: 4px solid var(--gray_ddd);
+    }
+
+    .DiscussionListItem-title mark,
+    .DiscussionListItem-info .item-excerpt mark {
+        background: var(--gray_dd);
+        color: var(--white);
+        font-weight: normal;
+        border-radius: 6px;
+        padding: 1px 5px;
+    }
+
+    .ReplyPlaceholder {
+        border: 4px solid var(--gray_d);
+        color: var(--white);
+        border-radius: 6px;
+    }
+
+    .ReplyPlaceholder:hover {
+        border: 4px solid var(--gray_dd);
+        background: var(--gray_d)
+    }
+
+    .Post.editing {
+        margin-bottom: 100px;
+    }
+    
+    .DiscussionPage-list {
+        background: var(--gray);
+        border: 4px solid var(--gray_ddd)
+    }
+    
+    .DiscussionPage-list .DiscussionListItem.active {
+        background: var(--gray_dd)
+    }
+    
+    
+    
+    
+    
+
+}
