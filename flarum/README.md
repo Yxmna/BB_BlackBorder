@@ -1,3 +1,4 @@
+[](https://media.discordapp.net/attachments/687375350459793437/700088445971726497/flarum.png)
 
 ## Installation
 
