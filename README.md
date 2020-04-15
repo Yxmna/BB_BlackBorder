@@ -1,9 +1,10 @@
 # BB_BlackBorder
-A little dark theme
+A little dark theme 🔦
 
 
-- deepl init
-- flarum v0 working
-- github v0 working
-- qwant v1
-- reddit init
+- qwant v1 ✔️
+- flarum v1 ✔️
+
+- github v0 ✏️
+- deepl v0 ✏️
+- reddit v0 ✏️
