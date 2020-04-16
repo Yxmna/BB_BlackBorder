@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           qwant-BB
 @namespace      qwant-BlackBorder
-@version        1.0.0
+@version        1.0.1
 @description    qwant dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder
@@ -27,6 +27,10 @@
 
     .home_page.all_home_page {
         background: var(--gray_dd) !important;
+    }
+    
+    *[style="background: rgb(255, 255, 255) none repeat scroll 0% 0%;"], body {
+        background: var(--gray) !important;
     }
 
     .wrapper {
