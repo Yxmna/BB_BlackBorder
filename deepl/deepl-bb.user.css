@@ -174,7 +174,7 @@
 
 
     .lmt--web .docTrans__help_popup .dl_visible_free_only {
-        color: var(--white_dd)
+        color: var(--white_dd);
     }
 
     .lmt--web .docTrans_translator_upload_button:hover ~ .docTrans__help_popup,
@@ -372,5 +372,6 @@
 
     .lmt__dict .lmt__dict__inner {
         position: relative;
+        box-shadow: none;
     }
 }
