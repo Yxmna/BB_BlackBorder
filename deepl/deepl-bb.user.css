@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           deepl-BB
 @namespace      deepl-BlackBorder
-@version        1.0.1
+@version        1.0.2
 @description    deepl dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder/
@@ -363,5 +363,14 @@
 
     .lmt__translations_as_text h2::before {
         border-color: var(--white_dddd);
+    }
+
+    .dl_ad,
+    .dl_ad_pro {
+        display: none;
+    }
+
+    .lmt__dict .lmt__dict__inner {
+        position: relative;
     }
 }
