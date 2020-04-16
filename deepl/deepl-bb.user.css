@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           deepl-BB
 @namespace      deepl-BlackBorder
-@version        1.0.2
+@version        1.0.3
 @description    deepl dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder/
@@ -135,7 +135,12 @@
     }
 
     .dl_body--redesign .lmt--web .lmt__language_select .lmt__language_select__active {
-        color: var(--white_d) !important;
+        color: var(--white_ddd) !important;
+    }
+    
+    
+    .dl_body--redesign .lmt--web .lmt__language_select .lmt__language_select__active:hover {
+        color: var(--whited) !important;
     }
 
     .lmt--web .lmt__language_select > button strong {
@@ -147,14 +152,14 @@
     .docTrans_translator_upload_button {
         padding: 4px 10px 2px 1px !important;
         border-top: 0px solid #f0f0f0 !important;
-        background-color: var(--gray_dd) !important;
+        background-color: var(--gray_ddd) !important;
         margin-left: 8px !important;
         border-radius: 6px !important;
     }
 
 
     .docTrans_translator_upload_button__inner > button {
-        background-color: var(--gray_dd) !important;
+        background-color: var(--gray_ddd) !important;
         color: var(--white_dd) !important;
     }
 
@@ -169,7 +174,8 @@
     }
 
     .lmt--web .docTrans__help_popup {
-        background-color: var(--gray_dd);
+        background-color: var(--gray_ddd);
+        border: 4px solid var(--gray_dddd);
     }
 
 
