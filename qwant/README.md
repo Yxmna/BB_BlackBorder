@@ -1,4 +1,4 @@
-![](https://media.discordapp.net/attachments/687375350459793437/700313238843293766/qwantBB.png)
+![](https://media.discordapp.net/attachments/687375350459793437/700315046680723546/qwantBB.png)
 
 ## Installation
 
