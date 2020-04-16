@@ -1,4 +1,4 @@
-![](https://media.discordapp.net/attachments/687375350459793437/700368393513205770/deeplBB.png)
+![](https://media.discordapp.net/attachments/687375350459793437/700373441529905222/deeplBB.png)
 
 ## Installation
 
