@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           deepl-BB
 @namespace      deepl-BlackBorder
-@version        1.0.0
+@version        1.0.1
 @description    deepl dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder/
@@ -286,71 +286,82 @@
         border-radius: 6px;
         color: var(--white_d);
     }
-    
-    
+
+
     .dl_button--3:hover {
         background-color: var(--gray_ddd);
         border: 0px;
         border-radius: 6px;
         color: var(--white_d);
     }
-    
-    
+
+
     .lmt_quote__inner {
         background: var(--gray_ddd);
     }
-    
-    .lmt_quote__inner::before { 
-        filter: brightness(100); 
+
+    .lmt_quote__inner::before {
+        filter: brightness(100);
     }
-    
+
     .lmt_quote__text {
         color: var(--white_ddd);
     }
-    
+
     .lmt_quote__source {
         color: var(--white_dddd);
     }
-    
-    .dl_body a:link, .dl_body--text_page a:link {
+
+    .dl_body a:link,
+    .dl_body--text_page a:link {
         color: var(--white_dd);
     }
-    
+
     #lmt_quotes_article .lmt_quotes_nav_entry {
         background: var(--white_ddd);
     }
-    
+
     #lmt_quotes_article .lmt_quotes_nav_entry--active {
         background: var(--white);
-}
-    
+    }
+
     .dl_footer {
         background: var(--gray) !important;
         padding-bottom: 0px;
     }
-    
+
     .dl_footer__container {
-    border-top: 0px;
-}
-    
+        border-top: 0px;
+    }
+
     .dl_footer__langselect::before {
         background: none;
     }
-    
-    
+
+
     .dl_footer__socials a {
-    background-color: var(--gray_dd);
-}
-    
-    .dl_header_menu_v2__logo > img  {
+        background-color: var(--gray_dd);
+    }
+
+    .dl_header_menu_v2__logo > img {
         filter: drop-shadow(0 0 5px var(--gray_dddd))
     }
-    
-     .dl_header_menu_v2__logo > span {
+
+    .dl_header_menu_v2__logo > span {
         filter: drop-shadow(0 0 2px var(--gray_dddd));
-         color: var(--white_d)
+        color: var(--white_d)
     }
-    
-    
-    
+
+
+    .lmt__translations_as_text__text_btn {
+        color: var(--white_dd);
+    }
+
+    .lmt__translations_as_text h2 {
+        color: var(--white_dddd);
+    }
+
+    .lmt__translations_as_text h2::before {
+        border-color: var(--white_dddd);
+    }
 }
