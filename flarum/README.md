@@ -2,10 +2,10 @@
 
 ## Installation
 
-
-- add [stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) extension
-- open [flarum-bb.user.css](https://github.com/Yxmna/BB_BlackBorder/raw/master/flarum/flarum-bb.user.css) and click install
-- change the URL on line 12 (example below)
+- Add [stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) extension
+- Open [flarum-bb.user.css in raw](https://github.com/Yxmna/BB_BlackBorder/raw/master/flarum/flarum-bb.user.css) 
+- Click install
+- Change the URL on line 12 (example below)
 
 Exemple:
 ```css
