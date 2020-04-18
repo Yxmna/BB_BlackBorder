@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           flarum-BB
 @namespace      flarum-BlackBorder
-@version        1.0.1
+@version        1.0.2
 @description    flarum dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder
@@ -373,10 +373,11 @@
 
     .DiscussionList:not(.DiscussionList--searchResults) .read .DiscussionListItem-title,
     .PostsUserPage-discussion,
-    .PostsUserPage-discussion a, .DiscussionListItem-title {
+    .PostsUserPage-discussion a,
+    .DiscussionListItem-title {
         color: var(--white_ddd);
     }
-    
+
     .Header-controls .item-notifications > div {
         z-index: 69;
     }
@@ -522,9 +523,7 @@
         border-radius: 6px;
         top: 5px;
         opacity: 1;
-        /*     border: 4px var(--gray_d) solid !important; */
-        /*      box-shadow: 0 0 10px -1px rgba(0,0,0,.25) inset; */
-        box-shadow: 0 0 25px -5px var(--gray_dddd)
+        box-shadow: 0 15px 30px -20px var(--gray_ddd);
     }
 
     .TextEditor textarea,
@@ -585,7 +584,7 @@
     }
 
     .ReplyPlaceholder {
-        border: 4px solid var(--gray_d);
+        border: 4px solid transparent;
         color: var(--white);
         border-radius: 6px;
     }
@@ -609,32 +608,73 @@
     }
 
 
-    .NotificationsDropdown-unread, .new .NotificationsDropdown-unread {
+    .NotificationsDropdown-unread,
+    .new .NotificationsDropdown-unread {
         background: var(--color);
         color: var(--white);
         box-shadow: 0 0 20px rgba(0, 0, 0);
     }
-    
+
     .unread.Notification {
-    background: var(--gray_l);
-}
+        background: var(--gray_l);
+    }
 
     .Notification:hover {
         text-decoration: none;
         background: var(--gray_ddd)!important;
     }
-    
+
     .NotificationGroup {
-    border-top: 4px solid var(--gray_ddd);
-}
-    
-    .NotificationList-header {
-    border-bottom: 4px solid var(--gray_ddd);
-}
-    
-    span[style="color:black"] {
-        color:var(--white_d) !important;
+        border-top: 4px solid var(--gray_ddd);
     }
-    
-    
+
+    .NotificationList-header {
+        border-bottom: 4px solid var(--gray_ddd);
+    }
+
+    span[style="color:black"] {
+        color: var(--white_d) !important;
+    }
+
+
+
+
+
+
+
+    /*     PROFILE */
+    legend,
+    .NotificationGrid td,
+    .NotificationGrid th {
+        color: var(--white_d);
+    }
+
+    .NotificationGrid {
+        background: var(--gray_d);
+        border: 4px solid var(--gray_dd);
+        border-radius: 6px;
+    }
+
+    .NotificationGrid td,
+    .NotificationGrid th {
+        border: 4px solid var(--gray_dd)
+    }
+
+    .NotificationGrid-checkbox.highlighted .Checkbox:not(.disabled),
+    .NotificationGrid-checkbox .Checkbox:hover:not(.disabled) {
+        background: var(--gray_dd);
+    }
+
+
+    .SettingsPage label {
+        color: var(--white_ddd);
+    }
+
+    .Checkbox--switch .Checkbox-display {
+        background: var(--gray_dd);
+    }
+
+    .Checkbox--switch .Checkbox-display::before {
+        background: var(--white_d);
+    }
 }
