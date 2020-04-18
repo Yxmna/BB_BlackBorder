@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           qwant-BB
 @namespace      qwant-BlackBorder
-@version        1.0.1
+@version        1.0.2
 @description    qwant dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder
@@ -371,22 +371,25 @@
     }
 
     /* BOX */
-    .ia_container .ia_container-web_desktop.results-ia-ribbon-nodejs,
-    .ia_container .results-ia-ribbon-nodejs,
-    body.v4.theme-dark .ia_container .results-ia-ribbon-nodejs,
-    .warning-block--container {
+    .ia_container  {
         background-color: var(--gray_d) !important;
         border: 4px solid var(--gray_dd) !important;
     }
+    
+    .ia_container > div {
+        border: none !important;
+    }
+    
+    .ia_container h1, .ia_container .ribbon_info__title {
+        color: var(--white) !important;
+        font-weight: 700 !important;
+    }
+    
 
     .st0 {
         stroke: var(--white_dddd) !important;
     }
 
-    .ribbon-knowledge--knowledge .ribbon_info__title, .ribbon-knowledge--game .ribbon_info__title {
-        color: var(--white) !important;
-        font-weight: 700 !important;
-    }
 
     .ribbon-knowledge--knowledge .ribbon_knowledge_discover,
     body.v4.theme-dark .ribbon-knowledge--knowledge .ribbon_knowledge_discover, .ribbon-knowledge--game .ribbon_discover {
@@ -406,7 +409,7 @@
         color: var(--white_dddd) !important;
     }
 
-    .ribbon_info__description, .ia_container-web_desktop .ribbon-knowledge--game .ribbon_info__description, .ribbon-knowledge--game .ribbon-knowledge-game-header span {
+    .ia_container .ribbon_info__description, .ia_container span {
         color: var(--white_dd) !important;
     }
 
