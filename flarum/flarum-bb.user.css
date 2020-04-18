@@ -1,39 +1,37 @@
 /* ==UserStyle==
 @name           flarum-BB
 @namespace      flarum-BlackBorder
-@version        1.0.0
+@version        1.0.1
 @description    flarum dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder
 @updateURL      https://github.com/Yxmna/BB_BlackBorder/raw/master/flarum/flarum-bb.user.css
 @license        GPL-3.0
 ==/UserStyle== */
-
 @-moz-document domain("play-mc.fr") {
-/* ⚠️⚠️ REPLACE "play-mc.fr" by ur forum url ⚠️⚠️ */
-    
+    /*     REPLACE "play-mc.fr" by ur forum url */
     :root {
-    --gray_ll: #4f5357;
-    --gray_l: #393e42;
-    --gray: #24292E;
-    --gray_d: #202429;
-    --gray_dd: #1c2024;
-    --gray_ddd: #191c20;
-    --gray_dddd: #15181b;
+        --gray_ll: #4f5357;
+        --gray_l: #393e42;
+        --gray: #24292E;
+        --gray_d: #202429;
+        --gray_dd: #1c2024;
+        --gray_ddd: #191c20;
+        --gray_dddd: #15181b;
 
-    --white: #fff;
-    --white_d: #d3d4d5;
-    --white_dd: #a7a9ab;
-    --white_ddd: #7b7e81;
-    --white_dddd: #4f5357;
+        --white: #fff;
+        --white_d: #d3d4d5;
+        --white_dd: #a7a9ab;
+        --white_ddd: #7b7e81;
+        --white_dddd: #4f5357;
 
-    --color: #21b371;
-    --color_d: #1da165;
-    --color_dd: #1a8f5a;
-}
-    
-    
-    
+        --color: #21b371;
+        --color_d: #1da165;
+        --color_dd: #1a8f5a;
+    }
+
+
+
     /* BACKGROUND */
     body {
         background: var(--gray);
@@ -368,15 +366,19 @@
     }
 
 
-    .DiscussionListItem-title,
+    .unread .DiscussionListItem-title,
     .unread .DiscussionListItem-count {
         color: var(--color);
     }
 
     .DiscussionList:not(.DiscussionList--searchResults) .read .DiscussionListItem-title,
     .PostsUserPage-discussion,
-    .PostsUserPage-discussion a {
+    .PostsUserPage-discussion a, .DiscussionListItem-title {
         color: var(--white_ddd);
+    }
+    
+    .Header-controls .item-notifications > div {
+        z-index: 69;
     }
 
     .DiscussionListItem-info,
@@ -596,19 +598,43 @@
     .Post.editing {
         margin-bottom: 100px;
     }
-    
+
     .DiscussionPage-list {
         background: var(--gray);
         border: 4px solid var(--gray_ddd)
     }
-    
+
     .DiscussionPage-list .DiscussionListItem.active {
         background: var(--gray_dd)
     }
-    
-    
-    
-    
-    
 
+
+    .NotificationsDropdown-unread, .new .NotificationsDropdown-unread {
+        background: var(--color);
+        color: var(--white);
+        box-shadow: 0 0 20px rgba(0, 0, 0);
+    }
+    
+    .unread.Notification {
+    background: var(--gray_l);
+}
+
+    .Notification:hover {
+        text-decoration: none;
+        background: var(--gray_ddd)!important;
+    }
+    
+    .NotificationGroup {
+    border-top: 4px solid var(--gray_ddd);
+}
+    
+    .NotificationList-header {
+    border-bottom: 4px solid var(--gray_ddd);
+}
+    
+    span[style="color:black"] {
+        color:var(--white_d) !important;
+    }
+    
+    
 }
