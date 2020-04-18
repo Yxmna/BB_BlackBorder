@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           flarum-BB
 @namespace      flarum-BlackBorder
-@version        1.0.2
+@version        1.0.3
 @description    flarum dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder
@@ -81,7 +81,7 @@
     .Hero-close {}
 
     .Hero h2 {
-        color: var(--white_d);
+        color: var(--white);
     }
 
     .Hero-subtitle {
