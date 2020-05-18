@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           deepl-BB
 @namespace      deepl-BlackBorder
-@version        1.0.3
+@version        1.0.4
 @description    deepl dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder/
@@ -137,8 +137,8 @@
     .dl_body--redesign .lmt--web .lmt__language_select .lmt__language_select__active {
         color: var(--white_ddd) !important;
     }
-    
-    
+
+
     .dl_body--redesign .lmt--web .lmt__language_select .lmt__language_select__active:hover {
         color: var(--whited) !important;
     }
@@ -379,5 +379,22 @@
     .lmt__dict .lmt__dict__inner {
         position: relative;
         box-shadow: none;
+    }
+
+    .lmt__stickyMenubar .lmt__stickyMenubar_whiteBackground {
+        border-top: 1px solid transparent;
+    }
+    .lmt__stickyMenubar_whiteBackground--hide {
+        background-color: transparent;
+    }
+
+    .lmt__glossaryButton .lmt__glossaryButton__desktop .lmt__glossary_button {
+        background: var(--gray_ddd);
+        color: var(--white_dd)
+    }
+
+    .dl_app_popup__content {
+        background: var(--gray);
+        border: 2px solid var(--white_dddd)
     }
 }
