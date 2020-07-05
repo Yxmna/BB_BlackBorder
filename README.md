@@ -10,5 +10,5 @@ A little dark theme 🔦
 | [FLARUM](https://github.com/Yxmna/BB_BlackBorder/tree/master/flarum) | v1 | ✔️
 | [QWANT](https://github.com/Yxmna/BB_BlackBorder/tree/master/qwant) | v1 | ✔️
 | [GITHUB](https://github.com/Yxmna/BB_BlackBorder/tree/master/github) | v0 | 📝
-| [REDDIT](https://github.com/Yxmna/BB_BlackBorder/tree/master/reddit) | v0 | ❌
+| [REDDIT](https://github.com/Yxmna/BB_BlackBorder/tree/master/reddit) | v0 | 📝
 | [BONPATRON](https://github.com/Yxmna/BB_BlackBorder/tree/master/bonpatron) | v0 | ❌
