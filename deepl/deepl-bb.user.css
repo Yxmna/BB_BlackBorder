@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           deepl-BB
 @namespace      deepl-BlackBorder
-@version        1.0.4
+@version        1.0.5
 @description    deepl dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder/
@@ -99,17 +99,32 @@
     }
 
 
+    .lmt__stickyMenubar .lmt__stickyMenubar_whiteBackground {
+    display: none;
+}
+    
+    .lmt__stickyMenubar .lmt--web .lmt__language_container {
+    background: var(--gray);
+}
 
 
     /*     UL */
     .lmt__edit_text_popup,
-    .lmt__language_select--open .lmt__language_select__menu {
+    .lmt__language_select--open .lmt__language_select__menu, .lmt__formalitySwitch .lmt__formalitySwitch__menu_items {
         background: var(--gray_ddd);
         border: 4px solid var(--gray_dddd) !important;
         border-radius: 6px;
     }
 
+    
+    .lmt__formalitySwitch .lmt__formalitySwitch__menu_items > button {
+        background: none;
+        color: var(--white_ddd);
+        border: none !important;
+    }
 
+    
+    
     .lmt__edit_text_popup li,
     .lmt__language_select--open .lmt__language_select__menu button {
         color: var(--white_ddd);
@@ -118,7 +133,7 @@
 
     .lmt__edit_text_popup li:hover,
     .lmt__edit_text_popup .lmt__edit_text_popup__entry--active,
-    .lmt__language_select--open .lmt__language_select__menu button:hover {
+    .lmt__language_select--open .lmt__language_select__menu button:hover, .lmt__formalitySwitch .lmt__formalitySwitch__menu_items > button:hover {
         background: var(--gray_dddd) !important;
         color: var(--white_d);
     }
@@ -397,4 +412,46 @@
         background: var(--gray);
         border: 2px solid var(--white_dddd)
     }
+    
+    #glossaryButton {
+        background: none;
+    }
+    
+    .lmt__formalitySwitch .lmt__formalitySwitch__toggler {
+        color: var(--white_ddd)
+    }
+    
+    .dl_cookieBanner_container {
+        background :var(--gray_dd);
+        border: 4px solid var(--gray_ddd);
+    }
+    
+    .dl_cookieBanner--buttonAll {
+        background: var(--gray_dd);
+        border: none;
+        color: var(--white_ddd);
+    }
+    
+    .dl_cookieBanner--buttonAll:hover {
+        background: var(--gray_ddd);
+        color: var(--white_dd);
+    }
+    
+    .dl_cookieBanner--buttonSelected {
+        background: var(--color);
+        border: none;
+        color: var(--white);
+    }
+    
+    
+    .dl_pro__banner--featureWrapper > div {
+        background: none;
+    }
+    
+    .dl_pro__banner--features {
+        background: var(--gray_dd) !important;
+        border: 4px solid var(--gray_ddd);
+    }
+    
+    
 }
