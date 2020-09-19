@@ -1,0 +1,181 @@
+/* ==UserStyle==
+@name           drive-BB
+@namespace      drive-BlackBorder
+@version        1.0.5
+@description    deepl dark theme
+@author         Yomna (https://github.com/Yxmna/)
+@homepageURL    https://github.com/Yxmna/BB_BlackBorder/
+@updateURL      https://github.com/Yxmna/BB_BlackBorder/raw/master/drive/drive-bb.user.css
+@license        GPL-3.0
+==/UserStyle== */
+@-moz-document domain("drive.google.com") {
+    :root {
+        --gray_ll: #4f5357 !important;
+        --gray_l: #393e42 !important;
+        --gray: #24292E !important;
+        --gray_d: #202429 !important;
+        --gray_dd: #1c2024 !important;
+        --gray_ddd: #191c20 !important;
+        --gray_dddd: #15181b !important;
+        --white: #fff !important;
+        --white_d: #d3d4d5 !important;
+        --white_dd: #a7a9ab !important;
+        --white_ddd: #7b7e81 !important;
+        --white_dddd: #4f5357 !important;
+        --color: #21b371 !important;
+        --color_d: #1da165;
+        --color_dd: #1a8f5a;
+    }
+
+
+    .a-qc-La,
+    .a-D-B,
+    .Kk7lMc-Yb-Il-j {
+        background: var(--gray) !important;
+    }
+
+    .gb_Ud.gb_ee.gb_4d {
+        background: var(--gray_ddd) !important;
+    }
+
+    .a-Kk7lMc-lihzJ-j {
+        display: none;
+    }
+
+    .a-D-B-WErN3d-j,
+    .a-s-Ba-Ak,
+    .Kk7lMc-Yb-Il-j,
+    .a-Kk7lMc-ae3xF-j {
+        border: none;
+    }
+
+
+    .gb_5e,
+    .gb_5e:not(.gb_6e) input::placeholder {
+        background-color: var(--gray);
+        color: var(--white);
+    }
+
+
+
+    .s55KNe .jGNTYb {
+        background-color: var(--gray_d);
+        border: 4px solid var(--gray_dd);
+    }
+
+    .h-R-w-d.a-l-S-Pc-w-d,
+    .a-U-ye-ha > .a-U-J > .a-U-J-x,
+    .aabwZd:not(.KBj6Qd) .GZwC2b .M3pype[data-column-field="6"],
+    .s55KNe:not(.KBj6Qd) .GZwC2b .jGNTYb,
+    .aabwZd:not(.KBj6Qd) .GZwC2b,
+    .aabwZd:not(.KBj6Qd) .GZwC2b .M3pype .YUNZ4c {
+        color: var(--white_d);
+    }
+
+    .s55KNe .Q5txwe {
+        color: var(--white_dd);
+    }
+
+    .o-Yc-o-T,
+    .ZqJeHd.a-c-d.a-r-d,
+    .s55KNe .Tguc8d,
+    .a-U-J-x,
+    .aabwZd .WYuW0e,
+    .iZz7md {
+        color: var(--white_dddd);
+    }
+
+    .iZz7md.aaQsNb:hover,
+    .iZz7md.aaQsNb:hover svg,
+    .iZz7md .I2rTXb:focus,
+    .iZz7md .I2rTXb:focus svg {
+        color: var(--white_ddd);
+    }
+
+
+    .a-ec-Gd .Kzazxf.x6jRSb {
+        background: var(--color_d);
+        color: var(--white);
+        padding: 0 5px;
+    }
+
+
+    .a-ec-Gd .Kzazxf.x6jRSb:hover {
+        background: var(--color_dd);
+        color: var(--white)
+    }
+
+    .a-ec-Gd .Kzazxf.x6jRSb::before {
+        content: "";
+    }
+
+    .gb_we img.gb_va {
+        display: none;
+    }
+
+    .gb_1c .gb_ge {
+        visibility: hidden;
+    }
+
+    .gb_1c .gb_ge::before {
+        visibility: visible;
+        content: "Black Border by Yomna ";
+        color: var(--white_dddd);
+    }
+
+    .a-U-ye-ha > .a-U-J {
+        background: var(--gray_dd);
+        color: var(--white);
+    }
+
+    .a-Ng-c-ha svg,
+    .a-d-c svg {
+        fill: var(--white_d);
+    }
+
+    .o-Yc-vc-Wb svg {
+        fill: var(--white_ddd);
+    }
+
+    .a-d-vc,
+    .a-U-xc > .a-da-fc-Ug::after,
+    .a-U-xc > .a-da-ji::before,
+    .a-U-xc > .a-da-Ul::before {
+        border-color: var(--white_dddd);
+    }
+
+    .l-u-Ab-zb-Pn-ve {
+        background: var(--gray_d);
+        opacity: .75;
+    }
+
+    .USrqEe-ml-Pr-gi .ml-Pr-kg,
+    #wD0wwd {
+        display: none;
+    }
+
+    .s55KNe:not(.KBj6Qd) .GZwC2b .jGNTYb,
+    .aabwZd:not(.KBj6Qd) .GZwC2b {
+        background-color: var(--gray_ddd);
+        border: 4px solid var(--gray_dddd);
+    }
+
+
+    .h-R-w-d.a-l-S-Pc-w-d:hover,
+    .o-Yc-o-T:hover {
+        color: var(--white);
+        background: var(--gray_d);
+    }
+    .aabwZd .WYuW0e {
+        border: none;
+    }
+
+    .aabwZd .WYuW0e .M3pype[data-column-field="6"] {
+        color: var(--white_dd)
+    }
+
+    .lVcy9.aabwZd .O5x1db {
+        background: transparent;
+        border-color: var(--white_dddd)
+    }
+}
