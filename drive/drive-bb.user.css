@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           drive-BB
 @namespace      drive-BlackBorder
-@version        1.0.5
-@description    deepl dark theme
+@version        1.0.1
+@description    drive dark theme
 @author         Yomna (https://github.com/Yxmna/)
 @homepageURL    https://github.com/Yxmna/BB_BlackBorder/
 @updateURL      https://github.com/Yxmna/BB_BlackBorder/raw/master/drive/drive-bb.user.css
@@ -58,11 +58,20 @@
 
 
 
-    .s55KNe .jGNTYb {
+    .s55KNe .jGNTYb, .wMElNe.AVUQbb {
         background-color: var(--gray_d);
         border: 4px solid var(--gray_dd);
     }
+    
+    .wMElNe.AVUQbb, .tK6t7b {
+        color: var(--white);
+        margin-right: 20px;
+    }
 
+    .r6xIie {
+        color: var(--white_dd);
+    }
+    
     .h-R-w-d.a-l-S-Pc-w-d,
     .a-U-ye-ha > .a-U-J > .a-U-J-x,
     .aabwZd:not(.KBj6Qd) .GZwC2b .M3pype[data-column-field="6"],
