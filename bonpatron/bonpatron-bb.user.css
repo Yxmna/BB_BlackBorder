@@ -10,4 +10,63 @@
 ==/UserStyle== */
 @-moz-document domain("bonpatron.com") {
 
+body {
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+.defaultSkin table, .defaultSkin tbody, .defaultSkin a, .defaultSkin img, .defaultSkin tr, .defaultSkin div, .defaultSkin td, .defaultSkin iframe, .defaultSkin span, .defaultSkin *, .defaultSkin .mceText {
+    background-color: #505860;
+    color: white;
+}
+
+.defaultSkin .mceStatusbar {
+    background-color: #505860;
+}
+
+body.mceContentBody {
+    background-color: #202429;
+    color: white;
+}
+
+#newfooter {
+    background-color: #7b8186;
+    color: white;
+}
+
+svg {
+    fill: white;
+}
+
+#langtoolresults table table {
+    background-color: #6a6a6a;
+}
+
+#langtoolresults table table thead {
+    background-color: #a8a87e;
+}
+
+.nayt-grammar, .mod, .mod:hover {
+    background-color: #ca8989;
+}
+
+#cke_tooltip {
+    background: #7b8186;
+}
+
+.cke_1 .cke_dialog_title, .cke_1 .cke_dialog_footer {
+    background: #7b8186;
+}
+
+.cke_dialog_contents {
+    background-color: #505860;
+}
+
+.cke_reset_all, .cke_reset_all *, .cke_reset_all a, .cke_reset_all textarea {
+    color: white;
+}
+
+.cke_dialog_ui_button_cancel {
+    color: black !important;
+}
 }
