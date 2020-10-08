@@ -453,5 +453,8 @@
         border: 4px solid var(--gray_ddd);
     }
     
+    .switchOption--2o-9u.variant_light--1OFSH.active--WFN-c {
+        color: var(--white);
+    }
     
 }
