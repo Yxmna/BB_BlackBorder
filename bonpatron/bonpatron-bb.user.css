@@ -8,6 +8,6 @@
 @updateURL      https://github.com/Yxmna/BB_BlackBorder/raw/master/bonpatron/bonpatron-bb.user.css
 @license        GPL-3.0
 ==/UserStyle== */
-@-moz-document domain("bonpatron.com") {
+@-moz-document domain("bonpatron.com"), domain("spellcheckplus.com") {
 
 }
